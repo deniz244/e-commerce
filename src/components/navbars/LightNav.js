@@ -24,7 +24,7 @@ export default function LightNav() {
           </div>
 
           <div className="flex flex-row pl-24  text-[#23A6F0]">
-            <div className="flex p-15 items-center gap-1 text-sm font-bold tracking-widest ">
+            <div className="flex pr-5 p-15 items-center gap-1 text-sm font-bold tracking-widest ">
               <div className="w-3 h-3">
                 <img src={userIcon} alt="userIcon"></img>
               </div>
