@@ -18,8 +18,8 @@ export default function Slider() {
   };
 
   return (
-    <div className="w-full h-auto overflow-x-hidden">
-      <div className="w-full relative">
+    <div className="w-auto h-[607px] overflow-x-hidden">
+      <div className="w-auto relative">
         <div
           style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
           className="w-[400vw] h-full flex transition-transform duration-1000"
