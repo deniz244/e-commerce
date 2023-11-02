@@ -13,6 +13,7 @@ export default function Home() {
       <Slider />
       <EditorsPick />
       <BestsellerProducts />
+      <Slider />
       <FeaturedPosts />
       <Footer />
     </div>
