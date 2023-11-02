@@ -4,8 +4,8 @@ export const products = [
     id: 1,
     image: bestseller1,
     title: "Graphic Design",
-    price: "16.48",
-    oldPrice: "6.48",
+    price: "6.48",
+    oldPrice: "16.48",
     department: "Electronics",
   },
   {
@@ -14,7 +14,7 @@ export const products = [
     title: "Graphic Design",
     price: "16.48",
     oldPrice: "6.48",
-    department: "Electronics",
+    department: "English Department",
   },
   {
     id: 3,
@@ -42,6 +42,22 @@ export const products = [
   },
   {
     id: 6,
+    image: bestseller1,
+    title: "Graphic Design",
+    price: "16.48",
+    oldPrice: "6.48",
+    department: "Electronics",
+  },
+  {
+    id: 7,
+    image: bestseller1,
+    title: "Graphic Design",
+    price: "16.48",
+    oldPrice: "6.48",
+    department: "Electronics",
+  },
+  {
+    id: 8,
     image: bestseller1,
     title: "Graphic Design",
     price: "16.48",

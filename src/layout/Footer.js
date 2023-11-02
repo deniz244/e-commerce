@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="bg-[#FAFAFA] py-10 font-['Montserrat', sans-serif]">
-      <div className="flex justify-between container m-auto pb-5">
+      <div className="flex justify-between  container m-auto pb-5">
         <div>
           <h3 className="font-bold text-2xl text-[#252B42] mb-2">Bandage</h3>
-          <div className="flex justify-between items-center w-[100px]">
-            <a href="">
-              <i class="bx bxl-facebook-circle text-[#23A6F0]"></i>
-            </a>
-            <a>
-              <i class="bx bxl-instagram text-[#23A6F0]"></i>
-            </a>
-            <a>
-              <i class="bx bxl-twitter text-[#23A6F0]"></i>
-            </a>
-          </div>
+        </div>
+        <div className="flex justify-between items-center w-[100px]">
+          <a href="">
+            <i class="bx bxl-facebook-circle text-[#23A6F0]"></i>
+          </a>
+          <a>
+            <i class="bx bxl-instagram text-[#23A6F0]"></i>
+          </a>
+          <a>
+            <i class="bx bxl-twitter text-[#23A6F0]"></i>
+          </a>
         </div>
       </div>
 
@@ -82,13 +82,10 @@ export default function Footer() {
         </div>
       </div>
 
-      {/*düzenlenecek */}
       <div className="flex justify-between container m-auto pt-5">
         <p className="font-bold text-sm text-[#737373]">
           Made With Love By Finland All Right Reserved{" "}
         </p>
-
-        {/*yukarı taşı */}
       </div>
     </div>
   );
