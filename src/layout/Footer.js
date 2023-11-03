@@ -63,7 +63,6 @@ export default function Footer() {
             <div className=" text-[#252B42] text-base mb-3">
               Get In Touch
               <div>
-                <label for="email"></label>
                 <input
                   className="bg-[#F9F9F9] text-[#737373] py-4 px-10 rounded-md"
                   type="email"

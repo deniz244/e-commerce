@@ -26,7 +26,7 @@ export default function BestsellerProducts() {
         <div className="flex items-start  ">
           <div className="flex flex-wrap gap-2 pl-8">
             {products.map((product) => (
-              <div>
+              <div key={product.id}>
                 <div className="w-60 h-[427px] gap-[30px]">
                   <img src={product.image} alt="best seller1"></img>
                 </div>
@@ -34,9 +34,12 @@ export default function BestsellerProducts() {
                   <h5 className="font-['Montserrat', sans-serif] text-center text-base font-bold leading-6 tracking-[0.1px]">
                     {product.title}
                   </h5>
-                  <Link className="font-['Montserrat', sans-serif] text-[#737373] text-center text-sm font-bold leading-6 tracking-[0.2px]">
-                    English Department
-                  </Link>
+                  <a
+                    href=""
+                    className="font-['Montserrat', sans-serif] text-[#737373] text-center text-sm font-bold leading-6 tracking-[0.2px]"
+                  >
+                    {product.department}
+                  </a>
                   <div className="flex items-start gap-[5px] pt-[5px] pb-[5px] pl-[5px] pr-[3px]">
                     <h5 className="font-['Montserrat', sans-serif] text-[#BDBDBD] text-base font-bold text-center leading-6 tracking-[0.1px]">
                       ${product.oldPrice}
@@ -54,7 +57,6 @@ export default function BestsellerProducts() {
                 </div>
               </div>
             ))}
-            <div className=""></div>
           </div>
         </div>
       </div>
