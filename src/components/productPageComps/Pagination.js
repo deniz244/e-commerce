@@ -4,9 +4,9 @@ export default function Pagination() {
   return (
     <nav aria-label="Page navigation example">
       <div className="container m-auto py-6 flex justify-center items-center">
-        <ul className="flex list-style-none text-lg">
+        <ul className="flex list-style-none text-lg font-['Montserrat', sans-serif]">
           <li>
-            <a className="pointer-events-none relative block rounded bg-transparent px-3 py-1.5 text-neutral-500 transition-all duration-300 dark:text-neutral-400">
+            <a className="pointer-events-none relative block rounded bg-[#BDBDBD] px-3 py-1.5 text-neutral-500 transition-all duration-300 dark:text-neutral-400 font-['Montserrat', sans-serif]">
               Previous
             </a>
           </li>
@@ -39,7 +39,7 @@ export default function Pagination() {
           </li>
           <li>
             <a
-              className="relative block rounded bg-transparent px-3 py-1.5  p-[25px]"
+              className="relative block rounded bg-transparent px-3 py-1.5  p-[25px] text-[#23A6F0] "
               href="#!"
             >
               Next
