@@ -11,7 +11,6 @@ export default function ProductBestSeller() {
           </h3>
         </div>
         <hr className="text-[#ECECEC] py-10" />
-
         <ProductCards />
       </div>
     </div>
