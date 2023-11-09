@@ -7,10 +7,14 @@ import ProductListPage from "./pages/ProductListPage";
 import AboutPage from "./pages/AboutPage";
 import ProductPage from "./pages/ProductPage";
 import ContactPage from "./pages/ContactPage";
+import TeamPage from "./pages/TeamPage";
 
 function App() {
   return (
     <Switch>
+      <Route path="/teams">
+        <TeamPage />
+      </Route>
       <Route path="/contact">
         <ContactPage />
       </Route>

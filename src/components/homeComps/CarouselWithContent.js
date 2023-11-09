@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Typography, Button } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 export default function CarouselWithContent() {
   return (
