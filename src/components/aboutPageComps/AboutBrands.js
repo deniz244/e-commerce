@@ -11,10 +11,10 @@ export default function AboutBrands() {
     <div className="bg-[#FAFAFA] ">
       <div className="py-20 flex flex-col gap-6 text-center items-center">
         <div className="flex flex-col gap-[30px]">
-          <h2 className="font-bold text-[40px] text-[#252B42]">
+          <h2 className="font-bold font-['Montserrat', sans-serif] text-[40px] text-[#252B42] leading-[50px] tracking-[0.2px]">
             Big Companies Are Here
           </h2>
-          <p className="w-[547px] m-auto font-normal text-sm text-[#737373]">
+          <p className="w-[547px] m-auto font-normal font-['Montserrat', sans-serif] text-sm text-[#737373] leading-[20px] tracking-[0.2px]">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics
           </p>
