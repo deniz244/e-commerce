@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../layout/Header";
-import Slider from "../layout/Slider";
+import CarouselWithContent from "../components/homeComps/CarouselWithContent";
 import EditorsPick from "../components/homeComps/EditorsPick";
 import BestsellerProducts from "../components/homeComps/BestsellerProducts";
 import FeaturedPosts from "../components/homeComps/FeaturedPosts";
@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Slider />
+      <CarouselWithContent />
       <EditorsPick />
       <BestsellerProducts />
-      <Slider />
+      <CarouselWithContent />
       <FeaturedPosts />
       <Footer />
     </div>
