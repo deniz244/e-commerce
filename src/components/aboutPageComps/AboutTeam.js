@@ -14,7 +14,7 @@ export default function AboutTeam() {
         </div>
         <div className="flex gap-6  ">
           {teamData.map((data) => (
-            <div className="w-[316px] m-auto font-bold">
+            <div key={data.id} className="w-[316px] m-auto font-bold">
               <img
                 className="w-[316px] h-[231px]"
                 src={data.img}
