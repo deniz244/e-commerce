@@ -14,7 +14,7 @@ export default function AboutNav() {
           <div className="flex flex-row items-start gap-3.5 text-sm text-[#737373] font-bold tracking-widest">
             <Link to="/">Home</Link>
             <Link to="/product">Product</Link>
-            <Link to="/about">Pricing</Link>
+            <Link to="/pricing">Pricing</Link>
             <Link to="/contact">Contact</Link>
           </div>
 
