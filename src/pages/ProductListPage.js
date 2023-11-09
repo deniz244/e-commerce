@@ -1,10 +1,10 @@
 import DarkNav from "../components/navbars/DarkNav";
 import LightNav from "../components/navbars/LightNav";
-import ShopHeader from "../components/productPageComps/ShopHeader";
-import ShopCards from "../components/productPageComps/ShopCards";
-import Filter from "../components/productPageComps/Filter";
-import ShopProducts from "../components/productPageComps/ShopProducts";
-import Brands from "../components/productPageComps/Brands";
+import ShopHeader from "../components/productListPageComps/ShopHeader";
+import ShopCards from "../components/productListPageComps/ShopCards";
+import Filter from "../components/productListPageComps/Filter";
+import ShopProducts from "../components/productListPageComps/ShopProducts";
+import Brands from "../components/productListPageComps/Brands";
 import Footer from "../layout/Footer";
 
 export default function ProductListPage() {
