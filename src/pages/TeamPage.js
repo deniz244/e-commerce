@@ -3,6 +3,7 @@ import Header from "../layout/Header";
 import TeamHeader from "../components/teamPageComps/TeamHeader";
 import TeamCards from "../components/teamPageComps/TeamCards";
 import AboutTeam from "../components/aboutPageComps/AboutTeam";
+import TeamPrice from "../components/teamPageComps/TeamPrice";
 
 export default function TeamPage() {
   return (
@@ -11,6 +12,7 @@ export default function TeamPage() {
       <TeamHeader />
       <TeamCards />
       <AboutTeam />
+      <TeamPrice />
     </div>
   );
 }
