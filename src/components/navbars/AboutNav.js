@@ -27,7 +27,7 @@ export default function AboutNav() {
               <button className="flex flex-row bg-[#23A6F0] text-white py-4 px-10 rounded-md gap-[15px]">
                 Become a member
                 <span>
-                  <img src={rArrow} className="pt-1"></img>
+                  <img src={rArrow} alt="right arrow" className="pt-1"></img>
                 </span>
               </button>
             </div>

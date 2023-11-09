@@ -1,12 +1,10 @@
 import React from "react";
-import AboutNav from "../components/aboutPageComps/AboutNav";
-import AboutUs from "../components/aboutPageComps/AboutUs";
+import AboutHeader from "../components/aboutPageComps/AboutHeader";
 
 export default function AboutPage() {
   return (
     <div>
-      <AboutNav />
-      <AboutUs />
+      <AboutHeader />
     </div>
   );
 }
