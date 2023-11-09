@@ -4,10 +4,10 @@ import { teamData } from "../../data/teamData";
 export default function AboutTeam() {
   return (
     <div>
-      <div className="flex flex-col gap-28 text-[#252B42] text-center items-center py-28">
+      <div className="flex flex-col gap-28 text-[#252B42]  font-['Montserrat', sans-serif] text-center items-center py-28">
         <div className="flex flex-col gap-2">
           <h1 className="font-bold text-[40px]">Meet Our Team</h1>
-          <h6 className="font-normal text-sm w-[469px] m-auto">
+          <h6 className="font-normal text-[#737373] text-sm w-[469px] m-auto leading-[20px] tracking-[0.2px]">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics{" "}
           </h6>
