@@ -1,6 +1,5 @@
 import React from "react";
-import { products } from "../../data/products";
-import { Link } from "react-router-dom";
+import ProductCards from "../cards/ProductCards";
 
 export default function ProductBestSeller() {
   return (
@@ -11,54 +10,9 @@ export default function ProductBestSeller() {
             BESTSELLER PRODUCTS
           </h3>
         </div>
-        <hr className="text-[#ECECEC]" />
-        <div className="flex flex-wrap gap-[30px]">
-          {products.map((product) => (
-            <Link
-              to={`/product/${product.id}`}
-              className="w-[238px] h-[442px] flex flex-col"
-            >
-              <img src={product.image}></img>
-              <div className="flex flex-col justify-start pt-[25px] pb-[35px] px-[25px] gap-[10px] bg-white">
-                <h5 className="font-bold text-base text-[#252B42]">
-                  {product.title}
-                </h5>
-                <Link
-                  to="/english-department"
-                  className=" font-bold text-sm text-[#737373]"
-                >
-                  English Department
-                </Link>
-                <div>
-                  <span className="text-[#BDBDBD] text-base ">$6.48</span>
-                  <span className="text-[#23856D] text-base ">$16.48</span>
-                </div>{" "}
-              </div>
-            </Link>
-          ))}
-        </div>
-        <div className="sm:hidden flex flex-col gap-[70px] w-[330px]">
-          {products.map((product) => (
-            <Link to={`/product/${product.id}`} className=" flex flex-col">
-              <img src={product.image}></img>
-              <div className="flex flex-col justify-start pt-[25px] pb-[35px] px-[25px] gap-[10px] bg-white">
-                <h5 className="font-bold text-base text-[#252B42]">
-                  {product.title}
-                </h5>
-                <Link
-                  to="/english-department"
-                  className=" font-bold text-sm text-[#737373]"
-                >
-                  English Department
-                </Link>
-                <div>
-                  <span className="text-[#BDBDBD] text-base ">$6.48</span>
-                  <span className="text-[#23856D] text-base ">$16.48</span>
-                </div>{" "}
-              </div>
-            </Link>
-          ))}
-        </div>
+        <hr className="text-[#ECECEC] py-10" />
+
+        <ProductCards />
       </div>
     </div>
   );
