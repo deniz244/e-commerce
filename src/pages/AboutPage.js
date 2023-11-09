@@ -4,6 +4,7 @@ import AboutContent from "../components/aboutPageComps/AboutContent";
 import AboutStats from "../components/aboutPageComps/AboutStats";
 import AboutVideo from "../components/aboutPageComps/AboutVideo";
 import AboutTeam from "../components/aboutPageComps/AboutTeam";
+import AboutBrands from "../components/aboutPageComps/AboutBrands";
 
 import Footer from "../layout/Footer";
 
@@ -15,6 +16,7 @@ export default function AboutPage() {
       <AboutStats />
       <AboutVideo />
       <AboutTeam />
+      <AboutBrands />
       <Footer />
     </div>
   );
