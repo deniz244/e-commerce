@@ -7,7 +7,7 @@ import ara from "./../../assets/büyütec.svg";
 
 export default function LightNav() {
   return (
-    <div className="flex h-20 bg-[#FFFFFF] pb-0 items-start flex-col gap-3 pl-20">
+    <div className="flex h-24 bg-[#FFFFFF] pb-0 items-start flex-col gap-3 pl-20 pt-3">
       <div className="flex h-14 w-auto justify-end items-start gap-10 font-['Montserrat', sans-serif] ">
         <div className="flex items-center py-3 pl-9 pr-20 text-2xl font-bold leading-8 tracking-wider text-[#252B42]">
           <h3>Bandage</h3>
