@@ -16,6 +16,7 @@ export default function AboutNav() {
             <Link to="/product">Product</Link>
             <Link to="/pricing">Pricing</Link>
             <Link to="/contact">Contact</Link>
+            <Link to="/teams">Teams</Link>
           </div>
 
           <div className="flex flex-row pl-24  text-[#23A6F0]">
