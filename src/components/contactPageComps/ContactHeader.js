@@ -1,11 +1,11 @@
 import React from "react";
-import AboutNav from "../navbars/AboutNav";
+import Header from "../../layout/Header";
 import headerImg from "../../assets/contactPage/header.png";
 
 export default function ContactHeader() {
   return (
     <div>
-      <AboutNav />
+      <Header />
       <div className="flex justify-between py-28">
         <div className="flex flex-col gap-[35px] w-[400px] text-[#252B42] ml-40">
           <h5 className="font-['Montserrat', sans-serif] font-bold text-base leading-[24px] tracking-[0.1px]">

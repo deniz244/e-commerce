@@ -21,6 +21,9 @@ export default function LightNav() {
             <Link to="/blog">Blog</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/pages">Pages</Link>
+            <Link to="/product">Product</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/teams">Teams</Link>
           </div>
 
           <div className="flex flex-row pl-24  text-[#23A6F0]">

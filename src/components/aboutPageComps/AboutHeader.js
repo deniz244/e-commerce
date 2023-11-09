@@ -1,11 +1,11 @@
 import React from "react";
-import AboutNav from "../navbars/AboutNav";
+import Header from "../../layout/Header";
 import AboutUs from "./AboutUs";
 
 export default function AboutHeader() {
   return (
     <div>
-      <AboutNav />
+      <Header />
       <AboutUs />
     </div>
   );
