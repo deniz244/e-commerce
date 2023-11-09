@@ -2,7 +2,10 @@ import React from "react";
 import AboutHeader from "../components/aboutPageComps/AboutHeader";
 import AboutContent from "../components/aboutPageComps/AboutContent";
 import AboutStats from "../components/aboutPageComps/AboutStats";
+import AboutVideo from "../components/aboutPageComps/AboutVideo";
 import AboutTeam from "../components/aboutPageComps/AboutTeam";
+
+import Footer from "../layout/Footer";
 
 export default function AboutPage() {
   return (
@@ -10,7 +13,9 @@ export default function AboutPage() {
       <AboutHeader />
       <AboutContent />
       <AboutStats />
+      <AboutVideo />
       <AboutTeam />
+      <Footer />
     </div>
   );
 }
