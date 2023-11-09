@@ -20,16 +20,17 @@ export default function AboutNav() {
 
           <div className="flex flex-row pl-24  text-[#23A6F0]">
             <div className="flex pr-5 p-15 items-center gap-[45px] text-sm font-bold tracking-widest ">
-              {/*<div className="w-3 h-3">
-                <img src={userIcon} alt="userIcon"></img>
-                </div>*/}
               <Link to="/login">Login</Link>
-              <button className="flex flex-row bg-[#23A6F0] text-white py-4 px-10 rounded-md gap-[15px]">
+
+              <Link
+                to="/signup"
+                className="flex bg-[#23A6F0] rounded text-white pt-[15px] pb-[15px] pl-[25px] pr-[25px] text-sm w-[220px] m-auto "
+              >
                 Become a member
-                <span>
+                <span className="pl-2">
                   <img src={rArrow} alt="right arrow" className="pt-1"></img>
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
