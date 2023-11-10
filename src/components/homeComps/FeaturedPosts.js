@@ -21,7 +21,7 @@ export default function FeaturedPosts() {
             the two major realms of Classical physics: Newtonian mechanics
           </p>
         </div>
-        <div className="flex gap-4 pl-60">
+        <div className="flex gap-4 pl-40">
           <div className="relative shadow-xl">
             <img className=" w-[348px] h-[300px]" src={img1}></img>
             <p className="absolute top-5 left-5 font-bold text-sm px-[10px] text-[#FFFFFF] bg-[#E74040] shadow-sm">
