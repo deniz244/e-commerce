@@ -5,7 +5,7 @@ export default function ProductCards() {
   //repeated -> BestsellerProducts ProductBestseller
 
   return (
-    <div className="flex items-start  ">
+    <div className="flex items-start ml-14">
       <div className="flex flex-wrap gap-2 pl-8">
         {products.map((product) => (
           <div key={product.id}>
