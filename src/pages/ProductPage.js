@@ -11,7 +11,9 @@ export default function ProductPage() {
     <div>
       <Header />
       <ProductCard />
-      <ProductDescription />
+      <div className="sm:w-[1050px] mx-auto">
+        <ProductDescription />
+      </div>
       <ProductBestSeller />
       <Brands />
       <Footer />
